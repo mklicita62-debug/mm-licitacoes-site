@@ -65,11 +65,9 @@
     .site-header { position: relative; z-index: 10; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); }
     .nav-wrap { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
     .brand { display: inline-flex; align-items: center; gap: 11px; color: var(--navy); text-decoration: none; }
-    .brand-monogram { font-size: 24px; line-height: 1; font-weight: 750; letter-spacing: -.08em; }
-    .brand-rule { width: 1px; height: 30px; background: var(--gold); }
-    .brand-label { display: grid; gap: 1px; }
-    .brand-label strong { font-size: 11px; letter-spacing: .13em; line-height: 1.2; }
-    .brand-label small { color: var(--muted); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
+    .brand-label { display: grid; gap: 2px; }
+    .brand-label strong { font-size: 13px; letter-spacing: .01em; line-height: 1.2; }
+    .brand-label small { color: var(--muted); font-size: 9px; letter-spacing: .06em; text-transform: uppercase; }
     .nav-links { display: flex; align-items: center; gap: 26px; }
     .nav-links a { color: #506075; font-size: 13px; font-weight: 620; text-decoration: none; transition: color .2s ease; }
     .nav-links a:hover { color: var(--navy); }
@@ -248,9 +246,7 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#inicio" aria-label="M&M Licitações e Consultoria, início">
-        <span class="brand-monogram" aria-hidden="true">M&amp;M</span>
-        <span class="brand-rule" aria-hidden="true"></span>
-        <span class="brand-label"><strong>LICITAÇÕES</strong><small>Consultoria e contratos</small></span>
+        <span class="brand-label"><strong>M&amp;M Licitações</strong><small>Consultoria e contratos</small></span>
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
